@@ -1,0 +1,18 @@
+city,role,station_id,name,lat,lon,elevation_m,epoch
+Berlin,urban,00399,Berlin-Alexanderplatz,52.519785,13.405678,37,2017-2025
+Berlin,reference,00427,Berlin Brandenburg,52.3807,13.5306,45.59,2017-2025
+Dresden,urban,15818,Dresden-Neustadt,51.068452,13.750037,115,2017-2025
+Dresden,reference,01048,Dresden-Klotzsche,51.1280,13.7543,227,through 2019-08-13
+Dresden,reference,01048,Dresden-Klotzsche,51.1278,13.7543,227.57,from 2019-08-14
+Frankfurt,urban,01424,Frankfurt/Main-Westend,50.1269,8.6694,120.78,2017-2025
+Frankfurt,reference,01420,Frankfurt/Main,50.0259,8.5213,99.70,2017-2025
+Freiburg,urban,13667,Freiburg-Mitte,48.000625,7.845948,274,2018-2025
+Freiburg,reference,01443,Freiburg,48.0232,7.8343,236.46,2017-2025
+Hamburg,urban,15973,Hamburg-Neustadt,53.552984,9.978261,19,through 2023-07-19
+Hamburg,urban,19844,Hamburg-Neustadt,53.5530,9.9783,17,from 2024-07-31
+Hamburg,reference,01975,Hamburg-Fuhlsbüttel,53.6332,9.9881,10.65,2017-2025
+Hannover,urban,15811,Hannover-Nordstadt,52.383847,9.739735,54,temporary product
+Hannover,urban,15811,Hannover-Nordstadt,52.383857,9.730775,54,urban product
+Hannover,reference,02014,Hannover,52.4644,9.6779,55.24,2017-2025
+Munich,urban,03379,München-Stadt,48.1632,11.5429,515.37,2017-2025
+Munich,reference,01262,München-Flughafen,48.3477,11.8134,445.50,2017-2025

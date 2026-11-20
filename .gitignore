@@ -3,6 +3,21 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Overnight heat study inputs and generated files
+/replay-output/
+/raw/*
+!/raw/sources.csv
+!/raw/freiburg_sources.csv
+/Revision_20261120/external/*
+!/Revision_20261120/external/sources.csv
+/Forecast_Revision_20261120/obs_2026/*
+!/Forecast_Revision_20261120/obs_2026/sources.csv
+/Forecast_Revision_20261120/icon_d2/*
+!/Forecast_Revision_20261120/icon_d2/sources.csv
+/Forecast_Revision_20261120/forecast_points/
+results/
+figures/
+
 # C extensions
 *.so
 

@@ -1,0 +1,4 @@
+file,url,sha256,size
+Frankfurt_01424_2026.zip,https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/air_temperature/recent/stundenwerte_TU_01424_akt.zip,1a4c39c4a0da971c134111bf4474534dc9999eb317dcd98dab29f3c4819ec471,79356
+Munich_03379_2026.zip,https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/air_temperature/recent/stundenwerte_TU_03379_akt.zip,a15556fb40ed9caa4d4a0295e19d69bde59f5cb2d156735fe58d0a106c71f87e,81475
+Vienna_5925_2026.csv,https://dataset.api.hub.geosphere.at/v1/station/historical/klima-v2-1h?parameters=tl%2Ctl_flag&station_ids=5925&start=2026-05-31T22%3A00%3A00Z&end=2026-09-01T05%3A00%3A00Z&output_format=csv,dd123dc97e65487dac0b0324b229ef13b586e3107d81a14a5e53debbe695b181,79800
