@@ -4,14 +4,14 @@ This repository contains the calculation code for the seven-city German study, t
 
 ## Reproduce the V5 results
 
-Use Python 3.12. Obtain the frozen replication archive `Urban_Climate_V5_Reproducibility_and_QGIS.zip` from the study materials. The archive is distributed separately and supplies the observation snapshots, archived forecast fields and inputs for checking the Freiburg map classes and grid elevations.
+Use Python 3.12. Download `Seven_City_Overnight_Heat_Data_v1.0.0.zip` from the [versioned Zenodo dataset](https://doi.org/10.5281/zenodo.24399768). The archive supplies the frozen observation snapshots, archived forecast fields, Freiburg map data and grid elevation inputs.
 
 ```bash
 python -m pip install -r requirements.txt
-python replay.py /path/to/Urban_Climate_V5_Reproducibility_and_QGIS.zip
+python replay.py /path/to/Seven_City_Overnight_Heat_Data_v1.0.0.zip
 ```
 
-The command verifies source checksums, runs the calculation scripts from this repository in a new `replay-output/` directory and compares the V5 tables with the frozen reference. It keeps the original study files separate from the Git checkout. The offline replay uses the archive's extracted GFS grid-point temperatures and surface heights and its raw ICON-D2 run responses. It also regenerates the statistical Figures 2, 5 and 6. The two QGIS projects and their geographic layers are provided with the replication archive.
+The command verifies source checksums, runs the calculation scripts from this repository in a new `replay-output/` directory and compares the V5 tables with the frozen reference. It keeps the original study files separate from the Git checkout. The offline replay uses the archive's extracted GFS grid-point temperatures and surface heights and its raw ICON-D2 run responses. It also regenerates the statistical Figures 2, 5 and 6. The Freiburg map source tables accompany the deposited data.
 
 | Analysis | Entry point |
 | --- | --- |
